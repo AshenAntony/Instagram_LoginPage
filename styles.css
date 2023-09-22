@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 100;
+    height: 100vh;
+}
+
+
+.main {
+    position: relative;
+    top: 15px;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid rgb(208, 207, 207);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.logo {
+    width: 70%;
+    height: 100%;
+}
+
+.inputs {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail {
+    width: 270px;
+    height: 30px;
+    background-color: rgba(235, 239, 238, 0.233);
+    border: 1px solid rgb(208, 207, 207);
+    margin: 10px;
+}
+
+.password {
+    width: 270px;
+    height: 30px;
+    background-color: rgba(235, 239, 238, 0.233);
+    border: 1px solid rgb(208, 207, 207);
+}
+
+.log {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.logIn {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(39, 192, 238, 0.942);
+    width: 270px;
+    height: 30px;
+    margin: auto;
+    border-radius: 6px;
+    border: 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+    color: rgb(164, 164, 171);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+h4::before {
+    background-color: rgb(182, 182, 188);
+    display: block;
+    width: 120px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 30px;
+    top: 295px;
+}
+
+h4::after {
+    background-color: rgb(182, 182, 188);
+    display: block;
+    width: 120px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 200px;
+    top: 295px;
+}
+
+.log-Fb {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    font-weight: bold;
+}
+
+.log {
+    color: rgb(49, 21, 122);
+    top: 1px;
+    text-decoration: none;
+    top: 15px;
+    font-size: 13px;
+}
+
+.fb {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+}
+
+.forgotPass {
+    text-decoration: none;
+}
+
+.second {
+    position: relative;
+    border: 1px solid rgb(208, 207, 207);
+    display: flex;
+    height: 60px;
+    width: 350px;
+    justify-content: center;
+    margin: auto;
+    top: 25px;
+}
+
+.footer {
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.sign {
+    text-decoration: none;
+    color: rgba(36, 173, 215, 0.942);
+    font-size: 13px;
+}
+
+.app {
+    display: flex;
+    width: 350px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.getapp {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.gplay {
+    width: 130px;
+    height: 40px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+.ms {
+    width: 130px;
+    height: 40px;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stores {
+    height: 100px;
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.footerLinks1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 20px;
+}
+
+.footerLinks2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    align-items: center
+}
+
+.footerLinks1 a {
+    text-decoration: none;
+    color: rgb(159, 156, 156);
+}
+
+.footerLinks2 select {
+    border: 0px;
+    color: rgb(159, 156, 156);
+}
+
+.footerLinks2 span {
+    color: rgb(159, 156, 156);
+}
+
